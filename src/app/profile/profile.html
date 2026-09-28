@@ -1,0 +1,10 @@
+<!-- profile.component.html -->
+<div class="profile">
+  <img class="profile" [ngSrc]="'https://static-assets.codecademy.com/Courses/learn-angular/01-angular-introduction/images/profile-picture.jpg'" width="200" height="300" alt="Profile Image">
+  <h2>{{ name }}</h2>
+  <p>{{role}} {{location}}</p>
+  <div class="social-links">
+  <a class="social-button" href={{linkedinUrl}} target="_blank">LinkedIn</a>
+  <a class="social-button" href={{githubUrl}} target="_blank">GitHub</a>
+  </div>
+</div>
